@@ -1,0 +1,127 @@
+​
+Netlify Build                                                 
+────────────────────────────────────────────────────────────────
+​
+> Version
+  @netlify/build 37.0.0
+​
+> Flags
+  accountId: 6ab45144355b062b9516aa04
+  deployId: 6ab4f337578af33148a18cc1
+​
+> Current directory
+  C:\Users\Pezhman\Desktop\pharmacy
+​
+> Config file
+  C:\Users\Pezhman\Desktop\pharmacy\netlify.toml
+​
+> Context
+  production
+​
+build.command from netlify.toml                               
+────────────────────────────────────────────────────────────────
+​
+$ vite build
+[nitro] build:before: 0.09ms
+[nitro] rollup:before: 0.015ms
+[36mvite v8.2.2 [32mbuilding client environment for production...[36m[39m
+transforming...
+✓ 1850 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/assets/styles-DC-ywHSJ.css   28.93 kB │ gzip:   6.43 kB
+dist/assets/staff-BVMDCuws.js     14.23 kB │ gzip:   4.36 kB
+dist/assets/routes-S_b2nVYE.js    20.56 kB │ gzip:   6.81 kB
+dist/assets/shell-DM7qn0bb.js     75.49 kB │ gzip:  23.53 kB
+dist/assets/index-AZegICUS.js    401.54 kB │ gzip: 125.58 kB
+
+[32m✓ built in 4.16s[39m
+[36mvite v8.2.2 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+✓ 74 modules transformed.
+rendering chunks...
+computing gzip size...
+node_modules/.nitro/vite/services/ssr/assets/styles-BjtkIElQ.css                     40.58 kB │ gzip:  7.82 kB
+node_modules/.nitro/vite/services/ssr/assets/start-5Z2QO8AU.js                        0.14 kB │ gzip:  0.13 kB
+node_modules/.nitro/vite/services/ssr/assets/empty-plugin-adapters-D9UWiqvJ.js        0.22 kB │ gzip:  0.16 kB
+node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-BbFbZXs4.js   0.73 kB │ gzip:  0.35 kB
+node_modules/.nitro/vite/services/ssr/assets/router-Y0-RlJLz.js                      14.11 kB │ gzip:  4.75 kB
+node_modules/.nitro/vite/services/ssr/assets/shell-3Ub-NGXM.js                       15.71 kB │ gzip:  5.44 kB
+node_modules/.nitro/vite/services/ssr/assets/staff-DGBjiDEW.js                       21.13 kB │ gzip:  5.07 kB
+node_modules/.nitro/vite/services/ssr/assets/routes-B5iam6nd.js                      29.46 kB │ gzip:  7.43 kB
+node_modules/.nitro/vite/services/ssr/index.js                                       62.53 kB │ gzip: 15.91 kB
+
+[32m✓ built in 3.85s[39m
+
+[90m[[90mnitro[90m][39m [35mo[39m Building [[35mNitro[39m] [2m(preset: [36mnetlify[39m, compatibility: [36m2026-09-24[39m)[22m
+[90m[[90mnitro[90m][39m [32m√[39m Generated public [36mdist[39m
+[nitro] prerender:routes: 0.022ms
+[36mvite v8.2.2 [32mbuilding nitro environment for production...[36m[39m
+transforming...
+✓ 1870 modules transformed.
+rendering chunks...
+computing gzip size...
+.netlify/functions-internal/server/_ssr/start-5Z2QO8AU.mjs                         0.14 kB │ gzip:   0.13 kB
+.netlify/functions-internal/server/_ssr/empty-plugin-adapters-D9UWiqvJ.mjs         0.23 kB │ gzip:   0.16 kB
+.netlify/functions-internal/server/_tanstack-start-manifest_v-BbFbZXs4.mjs         0.79 kB │ gzip:   0.39 kB
+.netlify/functions-internal/server/_chunks/ssr-renderer.mjs                        0.96 kB │ gzip:   0.49 kB
+.netlify/functions-internal/server/_runtime.mjs                                    1.58 kB │ gzip:   0.74 kB
+.netlify/functions-internal/server/_libs/zustand.mjs                               1.91 kB │ gzip:   0.72 kB
+.netlify/functions-internal/server/_libs/class-variance-authority+clsx.mjs         3.17 kB │ gzip:   1.24 kB
+.netlify/functions-internal/server/_libs/radix-ui__react-slot.mjs                  5.61 kB │ gzip:   1.73 kB
+.netlify/functions-internal/server/_libs/h3-v2+rou3.mjs                            9.83 kB │ gzip:   3.05 kB
+.netlify/functions-internal/server/_libs/lucide-react.mjs                         11.12 kB │ gzip:   2.96 kB
+.netlify/functions-internal/server/_libs/tanstack__history.mjs                    12.26 kB │ gzip:   3.48 kB
+.netlify/functions-internal/server/_ssr/router-Y0-RlJLz.mjs                       14.43 kB │ gzip:   4.86 kB
+.netlify/functions-internal/server/_ssr/shell-3Ub-NGXM.mjs                        16.39 kB │ gzip:   5.49 kB
+.netlify/functions-internal/server/_libs/@radix-ui/react-compose-refs+[...].mjs   16.79 kB │ gzip:   4.66 kB
+.netlify/functions-internal/server/_libs/h3+rou3+srvx.mjs                         22.57 kB │ gzip:   6.13 kB
+.netlify/functions-internal/server/_ssr/staff-DGBjiDEW.mjs                        24.82 kB │ gzip:   5.25 kB
+.netlify/functions-internal/server/main.mjs                                       31.34 kB │ gzip:   9.87 kB
+.netlify/functions-internal/server/_ssr/routes-B5iam6nd.mjs                       33.48 kB │ gzip:   7.56 kB
+.netlify/functions-internal/server/_libs/sonner.mjs                               53.66 kB │ gzip:  12.12 kB
+.netlify/functions-internal/server/_ssr/ssr.mjs                                   60.89 kB │ gzip:  15.85 kB
+.netlify/functions-internal/server/_libs/tailwind-merge.mjs                       88.13 kB │ gzip:  15.66 kB
+.netlify/functions-internal/server/_libs/@tanstack/router-core+[...].mjs         123.11 kB │ gzip:  25.92 kB
+.netlify/functions-internal/server/_libs/zod.mjs                                 159.58 kB │ gzip:  34.87 kB
+.netlify/functions-internal/server/_libs/@tanstack/react-router+[...].mjs        661.09 kB │ gzip: 138.98 kB
+
+[32m✓ built in 1.23s[39m
+[nitro] close: 0.493ms
+[nitro] compiled: 4.91ms
+[36mi[39m Generated [36m.netlify/functions-internal/nitro.json[39m
+
+[90m[[90mnitro[90m][39m [32m√[39m You can preview this build using [36mnpx vite preview[39m
+​
+(build.command completed in 12.6s)
+​
+Functions bundling                                            
+────────────────────────────────────────────────────────────────
+​
+Packaging Functions from .netlify\functions-internal directory:
+ - server\server.mjs
+​
+​
+(Functions bundling completed in 287ms)
+
+Deploying to Netlify
+────────────────────────────────────────────────────────────────
+
+[32mDeploy path: [39m       C:\Users\Pezhman\Desktop\pharmacy\dist
+[32mConfiguration path: [39mC:\Users\Pezhman\Desktop\pharmacy\netlify.toml
+
+​
+Netlify Build Complete                                        
+────────────────────────────────────────────────────────────────
+​
+(Netlify Build completed in 17.6s)
+
+🚀 Deploy complete
+────────────────────────────────────────────────────────────────
+
+Production URL: <https://dralizadehphamacy.netlify.app>
+Unique deploy URL: <https://6ab4f337578af33148a18cc1--dralizadehphamacy.netlify.app>
+
+Build logs: <https://app.netlify.com/projects/dralizadehphamacy/deploys/6ab4f337578af33148a18cc1>
+Function logs: <https://app.netlify.com/projects/dralizadehphamacy/logs/functions>
+Edge function logs: <https://app.netlify.com/projects/dralizadehphamacy/logs/edge-functions>
